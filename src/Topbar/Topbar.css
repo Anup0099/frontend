@@ -1,0 +1,62 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color:tomato; */
+}
+/* flex 6 means that it will take 6 of the total space */
+
+.topCenter {
+  flex: 6;
+}
+
+/* /flex 6 means it will take 6/10 of the width of the parent element */
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topList {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+}
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  color: #444;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+
+.topSearchIcon{
+    font-size: 18px;
+    color: #666; 
+    cursor: pointer;
+    margin-left: 15px;
+}
