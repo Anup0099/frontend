@@ -17,7 +17,7 @@ const Settings = () => {
               alt=""
             />
             <label htmlFor="fileInput">
-              <i className="settingsPPIcon" far fa-user-circle></i>
+            <i className="settingsPPIcon far fa-user-circle"></i>{" "}
             </label>
             <input
               type="file"
@@ -32,7 +32,7 @@ const Settings = () => {
           <input type="email" placeholder="anup@gmail.com" />
           <label>Password</label>
           <input type="password" placeholder="enter your password" />
-          <button className="settingsSubmit">Update</button>
+          <button className="settingsSubmit" type="submit">Update</button>
         </form>
       </div>
       <Sidebar />
