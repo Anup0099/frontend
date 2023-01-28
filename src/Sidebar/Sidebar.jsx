@@ -1,17 +1,13 @@
-import React from "react";
+import React from 'react'
 import { Link } from "react-router-dom";
-import Sidebar from "../Sidebar/Sidebar";
-import "./Topbar.css";
-function Topbar() {
-  const user = false;
+import { slide as Menu } from 'react-burger-menu';
+import './sidebar.css'
+const Sidebar = () => {
+    const user = false;
   return (
-    <div className="top">
-      <div className="sidebarSmall">
-        <Sidebar
-          pageWrapId={"page-wrap"}
-          outerContainerId={"outer-container"}
-        />
-      </div>
+    
+    <Menu >
+        <div className="top">
       <>
         <div className="topLeft">
           <i className="topIcon fa-brands fa-linkedin" />
@@ -71,7 +67,11 @@ function Topbar() {
         </div>
       </>
     </div>
-  );
+    </Menu>
+
+
+    
+  )
 }
 
-export default Topbar;
+export default Sidebar

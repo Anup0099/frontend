@@ -60,3 +60,31 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+.sidebarSmall {
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .sidebarSmall {
+    display: flex;
+  }
+
+  .topLeft{
+    display: none;  
+  }
+  .topCenter{
+    display: none;
+  }
+  .topRight{
+    display: none;
+  }
+  
+  
+
+
+
+
+  
+}
